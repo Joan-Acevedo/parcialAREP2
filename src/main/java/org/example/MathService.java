@@ -7,8 +7,10 @@ import java.util.ArrayList;
 public class MathService {
 
     public static void main(String[] args){
-        createSequence(5);
+        // aca se deberia ejecutar el metodo createSequence
+        // y posteriormente convertirlo en Json
     }
+
     private static ArrayList<Integer> createSequence(int number){
         ArrayList<Integer> sequence = new ArrayList<>();
         sequence.add(number);
@@ -24,7 +26,8 @@ public class MathService {
     }
 
     private static JSONPObject createJson(){
-
+        // En este metodo el ideal es que pasar el ArrayList obtenido en CreateSequence a Json
+        // En este caso no lo implemente debido a a problemas con el Json
         return null;
     }
 }

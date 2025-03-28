@@ -48,7 +48,7 @@ public class RoundRobin {
         }
         System.out.println("GET DONE");
 
-        return null; //response en Json
+        return null; //se deberia enviaar el response en Json
     }
 
     private static URL getURL(Request req) throws MalformedURLException {

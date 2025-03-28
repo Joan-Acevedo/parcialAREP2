@@ -44,7 +44,6 @@ Realice los siguientes pasos para clonar el proyecto.
 
 ```ssh
 git clone https://github.com/Joan-Acevedo/parcialAREP2.git
-cd AREP/
 ```
 
 ## Ejecutando la aplicación local 
